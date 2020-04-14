@@ -1,23 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import Typed from 'react-typed';
+
+import 'semantic-ui-css/semantic.min.css';
 import './App.css';
+import './stars.scss';
 
 function App() {
+  const initString = 'I am Aman Ibrahim, a software engineer. <br /> I am also a'
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <div style={{ width: '2000px' }} className="bg-image">
+          <div id="stars" />
+          <div id="stars2" />
+          <div id="stars3" />
+        </div>
+        <div>
+          <p>
+            <Typed
+              strings={[`${initString} Manchester United fan.`, `${initString} Mustang owner.`, `${initString} Muslim.`, `${initString} Duke Blue Devil.`, `${initString} PC and tech enthusiast.`, `${initString} North Carolinian.`, `${initString} student learning everyday.`, ]}
+              typeSpeed={50}
+              backSpeed={50}
+              backDelay={1}
+              smartBackspace
+            />
+          </p>
+        </div>
       </header>
     </div>
   );
