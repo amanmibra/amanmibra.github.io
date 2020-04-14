@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Typed from 'react-typed';
-import { Image } from 'semantic-ui-react';
+import { Button, Icon, Image } from 'semantic-ui-react';
 
 import * as logo from './../images/logo.gif'
 
@@ -14,13 +14,20 @@ class Home extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <Image className="App-logo" src={logo} size="small"/>
+          <br />
           <div style={{ width: '2000px' }} className="bg-image">
             <div id="stars" />
             <div id="stars2" />
             <div id="stars3" />
           </div>
+          <div>
+            <Button circular icon='github' target="_blank" href="https://github.com/amanmibra" />
+            <Button circular color='twitter' icon='twitter' target="_blank" href="https://twitter.com/amanmibra" />
+            <Button circular color='linkedin' icon='linkedin' target="_blank" href="https://www.linkedin.com/in/amanmibra/"/>
+            <br />
+          </div>
+          <br />
           <div>
             <p>
               <Typed
@@ -31,6 +38,45 @@ class Home extends Component {
                 smartBackspace
               />
             </p>
+          </div>
+          <br />
+          <div>
+            <Button
+              icon
+              color="blue"
+              href="/about"
+              labelPosition="left"
+            >
+              <Icon name="user" />
+              About Me
+            </Button>
+            <Button
+              icon
+              color="blue"
+              href="/experince"
+              labelPosition="left"
+            >
+              <Icon name="briefcase" />
+              My Experince
+            </Button>
+            <Button
+              icon
+              color="blue"
+              href="/projects"
+              labelPosition="left"
+            >
+              <Icon name="code" />
+              My Projects
+            </Button>
+            <Button
+              icon
+              color="blue"
+              href="/resume"
+              labelPosition="left"
+            >
+              <Icon name="file" />
+              My Resume
+            </Button>
           </div>
         </header>
       </div>
