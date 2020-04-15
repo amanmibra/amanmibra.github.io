@@ -34,7 +34,7 @@ class NavBar extends Component {
             </Menu.Item>
 
             <Menu.Item as='a' href="/resume">
-              <Icon name="file" />
+              <Icon name="file alternate" />
               My Resume
             </Menu.Item>
           </Container>

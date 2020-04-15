@@ -82,11 +82,11 @@ class Home extends Component {
               href="/resume"
               labelPosition="left"
             >
-              <Icon name="file" />
+              <Icon name="file alternate" />
               My Resume
             </Button>
             <div style={{ width: '2000px' }} className="bg-image">
-              <div id="stars" />
+              <div id="stars" style={{ animationDelay: '5s' }}/>
               <div id="stars2" />
               <div id="stars3" />
             </div>
