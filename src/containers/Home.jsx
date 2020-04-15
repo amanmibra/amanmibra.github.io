@@ -11,11 +11,11 @@ class Home extends Component {
     const initString = 'I am <b>Aman Ibrahim</b>, a software engineer. <br /> I am also a'
 
     const strings = [
-      `${initString} Manchester United fan.`,
-      `${initString} Mustang owner.`,
       `${initString} Muslim.`,
+      `${initString} Manchester United fan.`,
+      `${initString} Mustang S197 owner.`,
       `${initString} Duke Blue Devil.`,
-      `${initString} PC and tech enthusiast.`,
+      `${initString} tech enthusiast.`,
       `${initString} North Carolinian.`,
       `${initString} student learning everyday.`
     ]
