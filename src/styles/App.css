@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+#navbar, .page-body{
+    padding-bottom: 128px;
+}
+
+@media (max-width: 770px){
+    #navbar {
+      padding-bottom: 256px;
+    }
+}

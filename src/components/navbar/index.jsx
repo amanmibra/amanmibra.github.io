@@ -12,8 +12,8 @@ class NavBar extends Component {
 
   render() {
     return (
-      <div>
-        <Menu fixed='top' inverted>
+      <div id="navbar">
+        <Menu fixed='top' inverted stackable>
           <Container>
             <Menu.Item as='a' href="/" header>
               <Image src={logo} className="App-logo" size="mini"/>
