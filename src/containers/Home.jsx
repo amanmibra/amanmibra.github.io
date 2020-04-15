@@ -10,7 +10,15 @@ class Home extends Component {
   render() {
     const initString = 'I am <b>Aman Ibrahim</b>, a software engineer. <br /> I am also a'
 
-    const strings = [`${initString} Manchester United fan.`, `${initString} Mustang owner.`, `${initString} Muslim.`, `${initString} Duke Blue Devil.`, `${initString} PC and tech enthusiast.`, `${initString} North Carolinian.`, `${initString} student learning everyday.`, ]
+    const strings = [
+      `${initString} Manchester United fan.`,
+      `${initString} Mustang owner.`,
+      `${initString} Muslim.`,
+      `${initString} Duke Blue Devil.`,
+      `${initString} PC and tech enthusiast.`,
+      `${initString} North Carolinian.`,
+      `${initString} student learning everyday.`
+    ]
     return (
       <div className="App">
         <header className="App-header">

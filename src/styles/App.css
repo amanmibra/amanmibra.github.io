@@ -38,7 +38,7 @@
 }
 
 #navbar, .page-body{
-    padding-bottom: 128px;
+    padding-bottom: 72px;
 }
 
 @media (max-width: 770px){
