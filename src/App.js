@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import About from './containers/About';
+import Experince from './containers/Experince';
 import Home from './containers/Home';
 import Projects from './containers/Projects';
 import Resume from './containers/Resume';
@@ -28,6 +29,10 @@ function App() {
 
         <Route path="/about">
           <About />
+        </Route>
+
+        <Route path="/experince">
+          <Experince />
         </Route>
 
         <Route path="/projects">

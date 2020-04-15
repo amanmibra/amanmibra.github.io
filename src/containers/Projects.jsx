@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 
+import NavBar from './../components/navbar';
+
 class Projects extends Component {
 
   render() {
     return (
-      <div>Projects</div>
+      <div>
+        <NavBar />
+        <div className="page-body">
+          Projects
+        </div>
+      </div>
     );
   }
 
