@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-  Card,
   Container,
   Image
 } from 'semantic-ui-react';

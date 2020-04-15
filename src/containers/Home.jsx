@@ -77,6 +77,11 @@ class Home extends Component {
               <Icon name="file" />
               My Resume
             </Button>
+            <div style={{ width: '2000px' }} className="bg-image">
+              <div id="stars" />
+              <div id="stars2" />
+              <div id="stars3" />
+            </div>
           </div>
         </header>
       </div>
