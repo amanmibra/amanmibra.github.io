@@ -18,22 +18,22 @@ class NavBar extends Component {
             <Menu.Item as='a' href="/" header>
               <Image src={logo} className="App-logo" size="mini"/>
             </Menu.Item>
-            <Menu.Item as='a'>
+            <Menu.Item as='a' href="/about">
               <Icon name="user" />
               About Me
             </Menu.Item>
 
-            <Menu.Item as='a'>
+            <Menu.Item as='a' href="/experince">
               <Icon name="briefcase" />
               My Experince
             </Menu.Item>
 
-            <Menu.Item as='a'>
+            <Menu.Item as='a' href="/projects">
               <Icon name="code" />
               My Projects
             </Menu.Item>
 
-            <Menu.Item as='a'>
+            <Menu.Item as='a' href="/resume">
               <Icon name="file" />
               My Resume
             </Menu.Item>
