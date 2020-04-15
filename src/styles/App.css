@@ -45,4 +45,9 @@
     #navbar {
       padding-bottom: 256px;
     }
+
+    .App-header {
+      min-height: calc(var(--vh, 1vh) * 100);
+      min-width: calc(var(--vw, 1vw) * 100);
+    }
 }
