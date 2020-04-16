@@ -19,7 +19,7 @@ class WorkCards extends Component {
 
   render() {
     return (
-      <Card.Group itemsPerRow={4}>
+      <Card.Group stackable doubling itemsPerRow={4}>
         <Card color="orange">
           <Image src={cruise} />
           <Card.Content>

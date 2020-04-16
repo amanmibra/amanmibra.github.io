@@ -11,7 +11,7 @@ class ResearchCards extends Component {
 
   render() {
     return (
-      <Card.Group itemsPerRow={4}>
+      <Card.Group stackable doubling itemsPerRow={4}>
         <Card color="blue">
           <Image src={duke} size="large"/>
           <Card.Content>
