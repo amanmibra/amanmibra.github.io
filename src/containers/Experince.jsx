@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+import {
+  Container,
+} from 'semantic-ui-react';
 
+import ExperinceBody from '../components/experince/ExperinceBody';
 import NavBar from './../components/navbar';
 
 class Experince extends Component {
@@ -9,7 +13,9 @@ class Experince extends Component {
       <div>
         <NavBar />
         <div className="page-body">
-          Experince
+          <Container textAlign="left">
+            <ExperinceBody />
+          </Container>
         </div>
       </div>
     );
