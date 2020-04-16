@@ -3,16 +3,17 @@ import {
   Card,
   Icon,
   Image,
+  Popup,
 } from 'semantic-ui-react';
 
 import * as cisco from './../../images/cisco.png';
 import * as colab from './../../images/colab.png';
 import * as cruise from './../../images/cruise.png';
-import * as duke from './../../images/duke.png';
 import * as dukehealth from './../../images/dukehealth.jpg';
 import * as medsender from './../../images/medsender.png';
 import * as salesforce from './../../images/salesforce.png';
 import * as twitter from './../../images/twitter.png';
+import * as teaching from './../../images/teaching.png';
 
 class WorkCards extends Component {
 
@@ -23,7 +24,7 @@ class WorkCards extends Component {
           <Image src={cruise} />
           <Card.Content>
             <Card.Header>Cruise</Card.Header>
-            <Card.Meta>Incoming Software Engineer</Card.Meta>
+            <Card.Meta>Software Engineer</Card.Meta>
             <Card.Meta>
               <Icon name="map marker alternate"/> San Francisco, CA
             </Card.Meta>
@@ -34,7 +35,23 @@ class WorkCards extends Component {
 
           <Card.Content>
             <Card.Description>
-              AV - Machine Learning Platform
+              <p>
+                <b>Team: </b>
+                AV - Machine Learning Platform
+              </p>
+              <p>
+                The team is responsible for model training infrastructure, frameworks and related tools. Some examples of projects we work on are:
+              </p>
+              <p>
+                Experiment Management,
+                Model Traceability,
+                Training Reliability,
+                Training Cost Efficiency,
+                Data/Model Visualization Tools,
+                Training Frameworks (both deep learning and non-deep-learning),
+                Hyperparameter Tuning, and
+                Job Orchestration.
+              </p>
             </Card.Description>
           </Card.Content>
         </Card>
@@ -54,7 +71,27 @@ class WorkCards extends Component {
 
           <Card.Content>
             <Card.Description>
-              Engineering Productivity - PaaS (Platform as a Service)
+              <p>
+                Built software tools for Duke faculty and students using technologies such as Reat, Rails, SQL, and Docker.
+                <a href="https://colab.duke.edu/" target="_blank">
+                   <Icon name="linkify"/>
+                </a>
+              </p>
+              <p>
+                Teach classes and held office hours on software development skills.
+                <a href="https://colab.duke.edu/roots" target="_blank">
+                   <Icon name="linkify"/>
+                </a>
+                <br />
+                <br />
+                <Popup
+                  trigger={
+                    <Image attached rounded src={teaching} />
+                  }
+                  content="Teaching a Roots Course (Feb. 2019)"
+                />
+                <br />
+              </p>
             </Card.Description>
           </Card.Content>
         </Card>
@@ -74,7 +111,16 @@ class WorkCards extends Component {
 
           <Card.Content>
             <Card.Description>
-              Engineering Productivity - PaaS (Platform as a Service)
+              <p>
+                <b>Team: </b>
+                Engineering Productivity - PaaS (Platform as a Service)
+              </p>
+              <p>
+                Handled all cloud production services used by Cruise engineers on the Google Cloud Platform.
+              </p>
+              <p>
+                Worked on an internal service called GoLinks, which handled url shortners securly. Built service in Golang. Managed user authentication and authorization with SAML. Managed certificates with Let's Encrypt. Deployed services on containers via Docker and Kubernetes.
+              </p>
             </Card.Description>
           </Card.Content>
         </Card>
@@ -94,7 +140,16 @@ class WorkCards extends Component {
 
           <Card.Content>
             <Card.Description>
-              Ecosystem Team
+              <p>
+                <b>Team: </b>
+                Ecosystem Team
+              </p>
+              <p>
+                From scratch, built an open-source plugin for Heroku's CLI that allows clients to manage and create Heroku addons replacing Heroku's legacy tool known as kensa. Used by thousands of Heroku customers today.
+              </p>
+              <p>
+                Began the work on an internal tool that fetches Pagerduty data for Heroku engineers built in the functional programming language known as Elixir.
+              </p>
             </Card.Description>
           </Card.Content>
         </Card>
@@ -114,7 +169,15 @@ class WorkCards extends Component {
 
           <Card.Content>
             <Card.Description>
-              Full Stack
+              <p>
+                Built a medical record inbox and record viewer with auto-complete medical record search and customizable UI in React.
+              </p>
+              <p>
+                Worked on the admin dashboard,user authentication,audit logs, and record upload using Ruby on Rails and Google Cloud.
+              </p>
+              <p>
+                Built integration software with EMR/EHR systems,such as Athena and Epic
+              </p>
             </Card.Description>
           </Card.Content>
         </Card>
@@ -134,7 +197,14 @@ class WorkCards extends Component {
 
           <Card.Content>
             <Card.Description>
-              Full Stack
+              <p>
+                Built React web apps used as a tool for doctors and patients.
+              </p>
+              <p>
+                <a href="https://pcforme.org/pc-for-me/" target="_blank">
+                   <Icon name="linkify"/>
+                </a>
+              </p>
             </Card.Description>
           </Card.Content>
         </Card>

@@ -30,20 +30,18 @@ class ResearchCards extends Component {
               <p>
                 <b>Projects:</b>
               </p>
-              <ul>
-                <li>
-                  MoveIt: An adaptive recommendation model for nutrition and physical activity <br />
-                  <a href="http://dunn.pratt.duke.edu/team" target="_blank">
-                    <Icon name="linkify"/>
-                  </a>
-                </li>
-                <li>
-                  Covidentify: Wearable Tech and Covid-19 Data <br />
-                  <a href="https://covidentify.org/" target="_blank">
-                    <Icon name="linkify"/>
-                  </a>
-                </li>
-              </ul>
+              <p>
+                MoveIt: An adaptive recommendation model for nutrition and physical activity <br />
+                <a href="http://dunn.pratt.duke.edu/team" target="_blank">
+                  <Icon name="linkify"/>
+                </a>
+              </p>
+              <p>
+                Covidentify: Wearable Tech and Covid-19 Data <br />
+                <a href="https://covidentify.org/" target="_blank">
+                  <Icon name="linkify"/>
+                </a>
+              </p>
             </Card.Description>
           </Card.Content>
         </Card>
