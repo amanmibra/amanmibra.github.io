@@ -6,6 +6,7 @@ import {
 } from 'semantic-ui-react';
 
 import * as cisco from './../../images/cisco.png';
+import * as colab from './../../images/colab.png';
 import * as cruise from './../../images/cruise.png';
 import * as duke from './../../images/duke.png';
 import * as dukehealth from './../../images/dukehealth.jpg';
@@ -39,7 +40,7 @@ class WorkCards extends Component {
         </Card>
 
         <Card color="blue">
-          <Image src={duke} size="large"/>
+          <Image src={colab} size="large"/>
           <Card.Content>
             <Card.Header>Duke Innovation Co-lab</Card.Header>
             <Card.Meta>Full Stack Engineer and Software Consultant</Card.Meta>
