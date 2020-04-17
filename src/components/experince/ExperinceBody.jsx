@@ -68,12 +68,12 @@ class ExperinceBody extends Component {
           >
             <Icon name="dropdown" />
             <Header style={{ display: 'inline' }} as="h1">
-              <Icon name="globe" />
-              Fellowship
+              <Icon name="chart pie" />
+              Research
             </Header>
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 2}>
-            <FellowshipCards />
+            <ResearchCards />
           </Accordion.Content>
 
           <Accordion.Title
@@ -83,12 +83,12 @@ class ExperinceBody extends Component {
           >
             <Icon name="dropdown" />
             <Header style={{ display: 'inline' }} as="h1">
-              <Icon name="chart pie" />
-              Research
+              <Icon name="globe" />
+              Fellowship
             </Header>
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 3}>
-            <ResearchCards />
+            <FellowshipCards />
           </Accordion.Content>
 
         </Accordion>
