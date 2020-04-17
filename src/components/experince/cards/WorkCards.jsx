@@ -10,6 +10,7 @@ import * as cisco from './../../../images/cisco.png';
 import * as colab from './../../../images/colab.png';
 import * as cruise from './../../../images/cruise.png';
 import * as dukehealth from './../../../images/dukehealth.jpg';
+import * as dukeoit from './../../../images/dukeoit.png';
 import * as medsender from './../../../images/medsender.png';
 import * as salesforce from './../../../images/salesforce.png';
 import * as twitter from './../../../images/twitter.png';
@@ -19,7 +20,7 @@ class WorkCards extends Component {
 
   render() {
     return (
-      <Card.Group stackable doubling itemsPerRow={4}>
+      <Card.Group centered stackable doubling itemsPerRow={3}>
         <Card color="orange">
           <Image src={cruise} />
           <Card.Content>
@@ -73,13 +74,13 @@ class WorkCards extends Component {
             <Card.Description>
               <p>
                 Built software tools for Duke faculty and students using technologies such as Reat, Rails, SQL, and Docker.
-                <a href="https://colab.duke.edu/" target="_blank">
+                <a style={{ marginLeft: '4px'}} href="https://colab.duke.edu/" target="_blank">
                    <Icon name="linkify"/>
                 </a>
               </p>
               <p>
                 Teach classes and held office hours on software development skills.
-                <a href="https://colab.duke.edu/roots" target="_blank">
+                <a style={{ marginLeft: '4px'}} href="https://colab.duke.edu/roots" target="_blank">
                    <Icon name="linkify"/>
                 </a>
                 <br />
@@ -199,9 +200,7 @@ class WorkCards extends Component {
             <Card.Description>
               <p>
                 Built React web apps used as a tool for doctors and patients.
-              </p>
-              <p>
-                <a href="https://pcforme.org/pc-for-me/" target="_blank">
+                <a style={{ marginLeft: '4px'}} href="https://pcforme.org/pc-for-me/" target="_blank">
                    <Icon name="linkify"/>
                 </a>
               </p>
@@ -225,6 +224,26 @@ class WorkCards extends Component {
           <Card.Content>
             <Card.Description>
               College freshman code bootcamp dedicated to minorities in the tech industry. Competitively worked on teams to hack together a new tweet feature for Twitter, which we presented to multiple engineers and the Twitter CEO.
+            </Card.Description>
+          </Card.Content>
+        </Card>
+
+        <Card color="blue">
+          <Image src={dukeoit} size="big"/>
+          <Card.Content>
+            <Card.Header>Duke OIT</Card.Header>
+            <Card.Meta>Tech Consultant</Card.Meta>
+            <Card.Meta>
+              <Icon name="map marker alternate"/> Raleigh-Durham, NC
+            </Card.Meta>
+            <Card.Meta>
+              <Icon name="calendar"/> August 2016 - May 2017
+            </Card.Meta>
+          </Card.Content>
+
+          <Card.Content>
+            <Card.Description>
+              Held office hours for software and hardware related problems from Duke students and faculty.
             </Card.Description>
           </Card.Content>
         </Card>

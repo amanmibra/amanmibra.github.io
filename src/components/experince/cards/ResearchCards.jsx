@@ -11,7 +11,7 @@ class ResearchCards extends Component {
 
   render() {
     return (
-      <Card.Group stackable doubling itemsPerRow={4}>
+      <Card.Group stackable doubling itemsPerRow={3}>
         <Card color="blue">
           <Image src={duke} size="large"/>
           <Card.Content>
@@ -31,14 +31,14 @@ class ResearchCards extends Component {
                 <b>Projects:</b>
               </p>
               <p>
-                MoveIt: An adaptive recommendation model for nutrition and physical activity <br />
-                <a href="http://dunn.pratt.duke.edu/team" target="_blank">
+                MoveIt: An adaptive recommendation model for nutrition and physical activity
+                <a style={{ marginLeft: '4px'}} href="http://dunn.pratt.duke.edu/team" target="_blank">
                   <Icon name="linkify"/>
                 </a>
               </p>
               <p>
-                Covidentify: Wearable Tech and Covid-19 Data <br />
-                <a href="https://covidentify.org/" target="_blank">
+                Covidentify: Wearable Tech and Covid-19 Data
+                <a style={{ marginLeft: '4px'}} href="https://covidentify.org/" target="_blank">
                   <Icon name="linkify"/>
                 </a>
               </p>

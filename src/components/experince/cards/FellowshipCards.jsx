@@ -11,7 +11,7 @@ class FellowshipCards extends Component {
 
   render() {
     return (
-      <Card.Group stackable doubling itemsPerRow={4}>
+      <Card.Group stackable doubling itemsPerRow={3}>
         <Card color="blue">
           <Image src={code2040} size="large"/>
           <Card.Content>

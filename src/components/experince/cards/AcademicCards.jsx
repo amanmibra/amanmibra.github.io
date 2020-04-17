@@ -11,7 +11,7 @@ class AcademicCards extends Component {
 
   render() {
     return (
-      <Card.Group stackable doubling itemsPerRow={4}>
+      <Card.Group stackable doubling itemsPerRow={3}>
         <Card color="blue">
           <Image src={duke} size="large"/>
           <Card.Content>
@@ -28,7 +28,7 @@ class AcademicCards extends Component {
           <Card.Content>
             <Card.Description>
               <p>
-                Muslim Student Association - President, Treasurer, Weekly Events Chair, Class Representation
+                Muslim Student Association - President, Treasurer, Weekly Events Chair, Class Representative
               </p>
               <p>
                 Students for Justice of Palestine - Treasurer
