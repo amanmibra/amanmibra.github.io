@@ -5,7 +5,7 @@ import {
   Image,
 } from 'semantic-ui-react';
 
-import * as duke from './../../images/duke.png';
+import * as duke from './../../../images/duke.png';
 
 class ResearchCards extends Component {
 

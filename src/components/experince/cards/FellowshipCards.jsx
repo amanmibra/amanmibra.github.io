@@ -5,7 +5,7 @@ import {
   Image,
 } from 'semantic-ui-react';
 
-import * as code2040 from './../../images/code2040.png';
+import * as code2040 from './../../../images/code2040.png';
 
 class FellowshipCards extends Component {
 

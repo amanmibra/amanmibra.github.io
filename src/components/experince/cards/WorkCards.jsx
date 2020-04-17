@@ -6,14 +6,14 @@ import {
   Popup,
 } from 'semantic-ui-react';
 
-import * as cisco from './../../images/cisco.png';
-import * as colab from './../../images/colab.png';
-import * as cruise from './../../images/cruise.png';
-import * as dukehealth from './../../images/dukehealth.jpg';
-import * as medsender from './../../images/medsender.png';
-import * as salesforce from './../../images/salesforce.png';
-import * as twitter from './../../images/twitter.png';
-import * as teaching from './../../images/teaching.png';
+import * as cisco from './../../../images/cisco.png';
+import * as colab from './../../../images/colab.png';
+import * as cruise from './../../../images/cruise.png';
+import * as dukehealth from './../../../images/dukehealth.jpg';
+import * as medsender from './../../../images/medsender.png';
+import * as salesforce from './../../../images/salesforce.png';
+import * as twitter from './../../../images/twitter.png';
+import * as teaching from './../../../images/teaching.png';
 
 class WorkCards extends Component {
 

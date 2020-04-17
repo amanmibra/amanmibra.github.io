@@ -3,9 +3,9 @@ import {
   Header
 } from 'semantic-ui-react';
 
-import FellowshipCards from './FellowshipCards';
-import ResearchCards from './ResearchCards';
-import WorkCards from './WorkCards';
+import FellowshipCards from './cards/FellowshipCards';
+import ResearchCards from './cards/ResearchCards';
+import WorkCards from './cards/WorkCards';
 
 class ExperinceBody extends Component {
 
