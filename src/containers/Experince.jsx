@@ -3,7 +3,7 @@ import {
   Container,
 } from 'semantic-ui-react';
 
-import ExperinceBody from '../components/experince/ExperinceBody';
+import ExperinceBody from '../components/experince';
 import NavBar from './../components/navbar';
 
 class Experince extends Component {

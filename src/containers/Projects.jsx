@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+import {
+  Container,
+} from 'semantic-ui-react';
 
+import ProjectsBody from './../components/projects';
 import NavBar from './../components/navbar';
 
 class Projects extends Component {
@@ -9,7 +13,9 @@ class Projects extends Component {
       <div>
         <NavBar />
         <div className="page-body">
-          Projects
+          <Container>
+            <ProjectsBody />
+          </Container>
         </div>
       </div>
     );
