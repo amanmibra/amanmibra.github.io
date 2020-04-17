@@ -22,7 +22,7 @@ class About extends Component {
             <Card centered style={{ width: '45%'}}>
               <Card.Content>
                 <Card.Header>Aman Ibrahim 🇪🇷</Card.Header>
-                <Card.Meta>ML Platform @ Cruise</Card.Meta>
+                <Card.Meta>Machine Learning Platform @ <b>Cruise</b></Card.Meta>
               </Card.Content>
               <Card.Content>
                   <Grid divided stackable padded verticalAlign="middle" columns={2}>
