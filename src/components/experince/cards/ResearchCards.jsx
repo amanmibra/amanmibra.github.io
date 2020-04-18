@@ -31,7 +31,7 @@ class ResearchCards extends Component {
                 <b>Projects:</b>
               </p>
               <p>
-                MoveIt: An adaptive recommendation model for nutrition and physical activity
+                MoveIt/Nutrics: An adaptive recommendation model for nutrition and physical activity
                 <a style={{ marginLeft: '4px'}} href="http://dunn.pratt.duke.edu/team" target="_blank">
                   <Icon name="linkify"/>
                 </a>
