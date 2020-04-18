@@ -38,9 +38,14 @@ class CodingItems extends Component {
                 <Icon name="calendar outline"/> February 2018 - Ongoing
               </Item.Description>
               <Item.Description>
-                GTHC is a web-based scheduling tool for Duke Krzyzewskiville tenters. This platform prioritizes ease of use, organization, optimization, and collaboration for each tenter. In a single glance, GTHC will tell you the important details of your team's shifts, and with a few clicks, your team will know who, when, and what about any and all of your shifts. GTHC will also bring you updates from your team, the line monitors, and any important K-Ville news. Our end goal is to make life as a tenter easier. GTHC has had over 1000 Duke students using our plaform over the 2019 and 2020 men's basketball seasons.
+                GTHC is a web-based scheduling tool for Duke Krzyzewskiville tenters. This platform prioritizes ease of use, organization, optimization, and collaboration for each tenter. In a single glance, GTHC will tell you the important details of your team's shifts, and with a few clicks, your team will know who, when, and what about any and all of your shifts. GTHC will also bring you updates from your team, the line monitors, and any important K-Ville news. Our end goal is to make life as a tenter easier. GTHC has had over 4000 unique visitors to our site and hundreds of Duke students consistently using our plaform over the 2019 and 2020 men's basketball seasons.
               </Item.Description>
               <Item.Description>
+                <p>
+                  <b>
+                    GTHC in The News
+                  </b>
+                </p>
                 <p>
                   <a
                     href="https://www.dukechronicle.com/article/2020/01/duke-basketball-tenting-gthc-app-krzyzewskiville"
