@@ -93,29 +93,6 @@ class CodingItems extends Component {
           </Item>
 
           <Item>
-            <Item.Image rounded src={nlp} size="tiny"/>
-
-            <Item.Content>
-              <Item.Header>
-                Natural Language Processing - GloVe
-                <a style={{ marginLeft: '4px'}} href="https://github.com/amanmibra/GloVe" target="_blank">
-                  <Icon name="github"/>
-                </a>
-              </Item.Header>
-              <Item.Meta>
-                Medical Record Word Embeddings
-              </Item.Meta>
-              <Item.Description>
-                <Icon name="calendar outline"/> May 2018
-              </Item.Description>
-              <Item.Description>
-                Used GloVe model to interpret synonyms, such as acronyms and alternative terms, used in actual patient health records.
-              </Item.Description>
-              <Item.Extra>Skills: Python, Natural Language Processing</Item.Extra>
-            </Item.Content>
-          </Item>
-
-          <Item>
             <Item.Image rounded src={heroku} size="tiny"/>
 
             <Item.Content>
@@ -138,6 +115,29 @@ class CodingItems extends Component {
                 Plugin for Heroku's CLI that allows clients to manage and create Heroku addons replacing Heroku's legacy tool known as kensa. Used by thousands of Heroku customers today.
               </Item.Description>
               <Item.Extra>Skills: Typescript, oclif</Item.Extra>
+            </Item.Content>
+          </Item>
+
+          <Item>
+            <Item.Image rounded src={nlp} size="tiny"/>
+
+            <Item.Content>
+              <Item.Header>
+                Natural Language Processing - GloVe
+                <a style={{ marginLeft: '4px'}} href="https://github.com/amanmibra/GloVe" target="_blank">
+                  <Icon name="github"/>
+                </a>
+              </Item.Header>
+              <Item.Meta>
+                Medical Record Word Embeddings
+              </Item.Meta>
+              <Item.Description>
+                <Icon name="calendar outline"/> May 2018
+              </Item.Description>
+              <Item.Description>
+                Used GloVe model to interpret synonyms, such as acronyms and alternative terms, used in actual patient health records.
+              </Item.Description>
+              <Item.Extra>Skills: Python, Natural Language Processing</Item.Extra>
             </Item.Content>
           </Item>
 
@@ -177,7 +177,7 @@ class CodingItems extends Component {
               </Item.Header>
               <Item.Meta>Automate Manchester United news to your twitter feed</Item.Meta>
               <Item.Description>
-                <Icon name="calendar outline"/> October 2017 - January 2018
+                <Icon name="calendar outline"/> June 2017
               </Item.Description>
               <Item.Description>
                 Twitter bot that posts news about my favorite soccer team by using Reddit’s algorithm to choose the top posts of every hour.
