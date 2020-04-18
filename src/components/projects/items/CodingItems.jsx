@@ -13,6 +13,7 @@ import * as hackduke from './../../../images/hackduke.png';
 import * as heroku from './../../../images/heroku.png';
 import * as mufc from './../../../images/mufc.png';
 import * as nlp from './../../../images/nlp.png';
+import * as walla from './../../../images/walla.jpeg';
 
 class CodingItems extends Component {
 
@@ -188,6 +189,37 @@ class CodingItems extends Component {
                 Twitter bot that posts news about my favorite soccer team by using Reddit’s algorithm to choose the top posts of every hour.
               </Item.Description>
               <Item.Extra>Skills: NodeJS, Twitter API, Reddit API</Item.Extra>
+            </Item.Content>
+          </Item>
+
+          <Item>
+            <Item.Image rounded src={walla} size="tiny"/>
+
+            <Item.Content>
+              <Item.Header>
+                Walla - Android Development
+                <a style={{ marginLeft: '4px'}} href="https://pratt.duke.edu/about/news/walla-wins-duke-startup-challenge" target="_blank">
+                  <Icon name="linkify"/>
+                </a>
+              </Item.Header>
+              <Item.Meta>
+                Brings students together to share in events and activities
+              </Item.Meta>
+              <Item.Description>
+                <Icon name="calendar outline"/> January 2017 - March 2017
+              </Item.Description>
+              <Item.Description>
+                <p>
+                  Worked as an Android Developer at this startup, and developed software features for the Android product that acts as a hub for various activities for college students on their university's campus
+                </p>
+                <p>
+                  Product won $50,000 from Duke Startup Competition
+                </p>
+                <p>
+                  Company was eventually acquired
+                </p>
+              </Item.Description>
+              <Item.Extra>Skills: Java, Android</Item.Extra>
             </Item.Content>
           </Item>
 
