@@ -6,6 +6,7 @@ import {
   Embed
 } from 'semantic-ui-react';
 
+import * as colab from './../../../images/colab.png';
 import * as dmm from './../../../images/dmm.png';
 import * as gthc from './../../../images/gthc.png';
 import * as hackduke from './../../../images/hackduke.png';
@@ -69,6 +70,29 @@ class CodingItems extends Component {
           </Item>
 
           <Item>
+            <Item.Image rounded src={colab} size="tiny"/>
+
+            <Item.Content>
+              <Item.Header>
+                Duke Project Discover
+                <a style={{ marginLeft: '4px'}} href="https://colab.duke.edu/discover" target="_blank">
+                  <Icon name="linkify"/>
+                </a>
+              </Item.Header>
+              <Item.Meta>
+                Find collaborators for your project idea or find a project to join.
+              </Item.Meta>
+              <Item.Description>
+                <Icon name="calendar outline"/> August 2018 - Ongoing
+              </Item.Description>
+              <Item.Description>
+                Duke students often come to the Co-Lab with project ideas but no way of finding others who may be interested in joining. Discover is a way to find potential teammates by skill set (ie. design, marketing, backend development). Discover also functions as a platform for students to look at existing projects and connect with the project owner.
+              </Item.Description>
+              <Item.Extra>Skills: Ruby on Rails, React, PostgreSQL, Docker</Item.Extra>
+            </Item.Content>
+          </Item>
+
+          <Item>
             <Item.Image rounded src={nlp} size="tiny"/>
 
             <Item.Content>
@@ -85,7 +109,7 @@ class CodingItems extends Component {
                 <Icon name="calendar outline"/> May 2018
               </Item.Description>
               <Item.Description>
-                Userd GloVe model to interpret synonyms, such as acronyms and alternative terms, used in actual patient health records.
+                Used GloVe model to interpret synonyms, such as acronyms and alternative terms, used in actual patient health records.
               </Item.Description>
               <Item.Extra>Skills: Python, Natural Language Processing</Item.Extra>
             </Item.Content>
