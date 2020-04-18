@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {
+  Button,
   Icon,
   Item,
   Embed
@@ -7,6 +8,7 @@ import {
 
 import * as dmm from './../../../images/dmm.png';
 import * as gthc from './../../../images/gthc.png';
+import * as hackduke from './../../../images/hackduke.png';
 import * as heroku from './../../../images/heroku.png';
 import * as mufc from './../../../images/mufc.png';
 import * as nlp from './../../../images/nlp.png';
@@ -95,6 +97,9 @@ class CodingItems extends Component {
             <Item.Content>
               <Item.Header>
                 Heroku CLI Plugin
+                <a style={{ marginLeft: '4px'}} href="https://devcenter.heroku.com/articles/building-an-add-on" target="_blank">
+                  <Icon name="linkify"/>
+                </a>
                 <a style={{ marginLeft: '4px'}} href="https://github.com/heroku/heroku-cli-addons-admin" target="_blank">
                   <Icon name="github"/>
                 </a>
@@ -139,6 +144,9 @@ class CodingItems extends Component {
             <Item.Content>
               <Item.Header>
                 Manchester United sub-reddit (/r/reddevils) Twitter bot - @reddevilsbot
+                <a style={{ marginLeft: '4px'}} href="https://twitter.com/reddevilsbot" target="_blank">
+                  <Icon name="linkify"/>
+                </a>
                 <a style={{ marginLeft: '4px'}} href="https://github.com/amanmibra/reddevils-Twitter-Bot" target="_blank">
                   <Icon name="github"/>
                 </a>
@@ -151,6 +159,47 @@ class CodingItems extends Component {
                 Twitter bot that posts news about my favorite soccer team by using Reddit’s algorithm to choose the top posts of every hour.
               </Item.Description>
               <Item.Extra>Skills: NodeJS, Twitter API, Reddit API</Item.Extra>
+            </Item.Content>
+          </Item>
+
+          <Item>
+            <Item.Image rounded src={hackduke} size="tiny"/>
+
+            <Item.Content>
+              <Item.Header>
+                Hack Duke 2016 - GiveMeGreen
+                <a style={{ marginLeft: '4px'}} href="https://devpost.com/software/givemegreen" target="_blank">
+                  <Icon name="linkify"/>
+                </a>
+              </Item.Header>
+              <Item.Meta>
+                Environmental projects through crowdsourcing
+              </Item.Meta>
+              <Item.Description>
+                <Icon name="calendar outline"/> November 2016
+              </Item.Description>
+              <Item.Description>
+                An iOS app that promotes environmental projects through crowdsourcing that will improve the environment. App used bitcoin as one of the forms of currency to fund the environment projects.
+              </Item.Description>
+              <Item.Description>
+                <p><b>Awards and Prizes:</b></p>
+                <p>Coinbase - Best Use of Bitcoin blockchains</p>
+                <p>Team won one bitcoin valued at ~$750 (November 2016)</p>
+              </Item.Description>
+              <Item.Extra>Skills: Swift, Coinbase API</Item.Extra>
+            </Item.Content>
+          </Item>
+
+          <Item>
+            <Item.Content>
+              <a
+                target="_blank"
+                href="https://github.com/amanmibra?tab=repositories"
+              >
+                <Button color="blue">
+                  <Icon name='github' /> Want to see more? Check out my 40+ other Github Repos!
+                </Button>
+              </a>
             </Item.Content>
           </Item>
         </Item.Group>

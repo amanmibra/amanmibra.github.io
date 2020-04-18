@@ -59,7 +59,7 @@ class ResearchItems extends Component {
                   target="_blank"
                   href="https://covidentify.org/in-the-news/"
                 >
-                  <b>Covidetify in The News</b>
+                  <b>Covidentify in The News</b>
                 </a>
               </Item.Description>
               <Item.Extra>Skills: ExpressJS, MongoDB, Fitbit API, Garmin API</Item.Extra>
