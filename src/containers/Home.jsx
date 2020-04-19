@@ -61,11 +61,11 @@ class Home extends Component {
             <Button
               icon
               color="blue"
-              href="/experince"
+              href="/experience"
               labelPosition="left"
             >
               <Icon name="briefcase" />
-              My Experince
+              My Experience
             </Button>
             <Button
               icon

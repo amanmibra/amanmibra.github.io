@@ -10,7 +10,7 @@ import FellowshipCards from './cards/FellowshipCards';
 import ResearchCards from './cards/ResearchCards';
 import WorkCards from './cards/WorkCards';
 
-class ExperinceBody extends Component {
+class ExperienceBody extends Component {
 
   state = { activeIndex: -1 }
 
@@ -98,4 +98,4 @@ class ExperinceBody extends Component {
 
 }
 
-export default ExperinceBody;
+export default ExperienceBody;

@@ -37,10 +37,10 @@ class About extends Component {
                             I grew up in Raleigh, NC, and graduated from Duke on May 2020 with a Bachelor of Science in Computer Science.
                           </p>
                           <p>
-                            I have great experince in Full Stack Web Development as I have worked in the front-end, back-end, and DevOps on multiple web applications. I have worked on projects on all stages from early planning to testing to launch and production.
+                            I have great experience in Full Stack Web Development as I have worked in the front-end, back-end, and DevOps on multiple web applications. I have worked on projects on all stages from early planning to testing to launch and production.
                           </p>
                           <p>
-                            My current interest is in the sphere of Artifical Intelligence, in particular to Machine Learning and Natural Language Processing. I am looking towards gaining more experince in this field through industry and graduate school.
+                            My current interest is in the sphere of Artifical Intelligence, in particular to Machine Learning and Natural Language Processing. I am looking towards gaining more experience in this field through industry and graduate school.
                           </p>
                         </div>
                       </Item.Description>

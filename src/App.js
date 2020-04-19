@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 import About from './containers/About';
-import Experince from './containers/Experince';
+import Experience from './containers/Experience';
 import Home from './containers/Home';
 import Projects from './containers/Projects';
 import Resume from './containers/Resume';
@@ -31,8 +31,8 @@ function App() {
           <About />
         </Route>
 
-        <Route path="/experince">
-          <Experince />
+        <Route path="/experience">
+          <Experience />
         </Route>
 
         <Route path="/projects">
