@@ -3,10 +3,10 @@ import {
   Container,
 } from 'semantic-ui-react';
 
-import ExperinceBody from '../components/experince';
+import ExperienceBody from '../components/experience';
 import NavBar from './../components/navbar';
 
-class Experince extends Component {
+class Experience extends Component {
 
   render() {
     return (
@@ -14,7 +14,7 @@ class Experince extends Component {
         <NavBar />
         <div className="page-body">
           <Container textAlign="left">
-            <ExperinceBody />
+            <ExperienceBody />
           </Container>
         </div>
       </div>
@@ -23,4 +23,4 @@ class Experince extends Component {
 
 }
 
-export default Experince;
+export default Experience;

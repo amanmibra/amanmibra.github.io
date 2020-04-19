@@ -23,9 +23,9 @@ class NavBar extends Component {
               About Me
             </Menu.Item>
 
-            <Menu.Item as='a' href="/experince">
+            <Menu.Item as='a' href="/experience">
               <Icon name="briefcase" />
-              My Experince
+              My Experience
             </Menu.Item>
 
             <Menu.Item as='a' href="/projects">

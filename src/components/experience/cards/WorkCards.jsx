@@ -87,7 +87,7 @@ class WorkCards extends Component {
                 <br />
                 <Popup
                   trigger={
-                    <Image attached rounded src={teaching} />
+                    <Image rounded src={teaching} />
                   }
                   content="Teaching a Roots Course (Feb. 2019)"
                 />
@@ -263,7 +263,7 @@ class WorkCards extends Component {
 
           <Card.Content>
             <Card.Description>
-              Program for high school students in the RDU Triangle Area to gain experince in the tech industry.
+              Program for high school students in the RDU Triangle Area to gain experience in the tech industry.
             </Card.Description>
           </Card.Content>
         </Card>
