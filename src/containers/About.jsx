@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
   Container,
   Divider,
+  Flag,
   Icon,
   Item,
   Segment,
@@ -27,7 +28,7 @@ class About extends Component {
                     <Item.Image rounded src={aman} size="medium"/>
 
                     <Item.Content verticalAlign="middle">
-                      <Item.Header>Aman Ibrahim 🇪🇷</Item.Header>
+                      <Item.Header>Aman Ibrahim <Flag name='er'/></Item.Header>
                       <Item.Meta>Machine Learning Platform @ <b>Cruise</b></Item.Meta>
                       <Divider />
                       <Item.Description>
