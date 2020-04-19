@@ -162,7 +162,7 @@ class CodingItems extends Component {
                 <Icon name="calendar outline"/> October 2017 - January 2018
               </Item.Description>
               <Item.Description>
-                Web app that will display all of a students required courses for a certain major, including the overlapping courses between double majors. Pitched application to Duke's Office of Technology (OIT), and it helped inspire the renovation of Duke's online student hub, known as DukeHub.
+                Web app that will display all of a students required courses for a certain major, including the overlapping courses between double majors. Pitched application to Duke's Office of Information Technology (OIT), and it helped inspire the renovation of Duke's online student hub, known as DukeHub.
               </Item.Description>
               <Item.Extra>Skills: React, Redux, CloudSQL, Google Cloud Platform</Item.Extra>
             </Item.Content>

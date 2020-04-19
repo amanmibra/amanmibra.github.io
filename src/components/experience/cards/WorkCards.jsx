@@ -87,7 +87,7 @@ class WorkCards extends Component {
                 <br />
                 <Popup
                   trigger={
-                    <Image attached rounded src={teaching} />
+                    <Image rounded src={teaching} />
                   }
                   content="Teaching a Roots Course (Feb. 2019)"
                 />

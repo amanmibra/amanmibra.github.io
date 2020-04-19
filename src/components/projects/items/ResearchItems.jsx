@@ -28,9 +28,9 @@ class ResearchItems extends Component {
                 <Icon name="calendar outline"/> January 2020 - Ongoing
               </Item.Description>
               <Item.Description>
-                Worked on the team that built the food word embeddings, and recommendation model that uses a user's food and nutritional preferences and physical activity data from wearables The food recommendations and suggestions were based on local resturant options using resturant food nutrition datasets. The product will be a mobile application that communicates with the wearables connected to the phone.
+                Worked on the team that built the food word embeddings, and recommendation model that uses a user's food and nutritional preferences and physical activity data from wearables. The food recommendations and suggestions were based on local resturant options using resturant food nutrition datasets. The product will be a mobile application that communicates with the wearables connected to the phone.
               </Item.Description>
-              <Item.Extra>Skills: Natural Language Processing, Word2Vec, Python, Jupyter Notebook, Django, ExpressJS</Item.Extra>
+              <Item.Extra>Skills: Natural Language Processing, Word2Vec, Python, Jupyter Notebook, Django, Javascript, ExpressJS</Item.Extra>
             </Item.Content>
           </Item>
 
