@@ -24,6 +24,11 @@
   color: white;
 }
 
+.App-footer {
+  padding: 24px;
+  font-size: calc(4px + 2vmin);
+}
+
 .App-link {
   color: #61dafb;
 }

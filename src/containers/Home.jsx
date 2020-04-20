@@ -85,6 +85,21 @@ class Home extends Component {
               <Icon name="file alternate" />
               My Resume
             </Button>
+            <div className="App-footer">
+              <p>
+                Made with
+                <Icon style={{ paddingLeft: '0.2em'}} name="react" />
+                by Aman Ibrahim
+              </p>
+              <p>
+                <a
+                  target="_blank"
+                  href="https://github.com/amanmibra/amanis.cool"
+                >
+                  <Icon style={{ paddingLeft: '0.2em'}} name="github alternate" />
+                </a>
+              </p>
+            </div>
             <div style={{ width: '2000px' }} className="bg-image">
               <div id="stars" style={{ animationDelay: '5s' }}/>
               <div id="stars2" />
