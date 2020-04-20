@@ -1,3 +1,13 @@
+# Aman Ibrahim - Software Engineer
+#### Aman Ibrahim's Portfolio site
+
+Find the site at [amanis.cool](www.amanis.cool)
+
+![GIF of site](https://i.imgur.com/Tn21ypK.gif)
+-------------
+
+## Create-React-App documentation
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
