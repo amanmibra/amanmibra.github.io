@@ -3,7 +3,7 @@
 
 Find the site at [amanis.cool](www.amanis.cool)
 
-![GIF of site](https://i.imgur.com/Tn21ypK.gif)
+![GIF of site](https://i.imgur.com/Fq2w0x5.gif)
 -------------
 
 ## Create-React-App documentation
