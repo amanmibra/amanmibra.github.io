@@ -47,7 +47,7 @@ class ResearchItems extends Component {
                   <Icon name="github"/>
                 </a>
               </Item.Header>
-              <Item.Meta>Adaptive recommendation model for nutrition and physical activity</Item.Meta>
+              <Item.Meta>Using wearable tech to detect COVID-19</Item.Meta>
               <Item.Description>
                 <Icon name="calendar outline"/> March 2020 - Ongoing
               </Item.Description>
