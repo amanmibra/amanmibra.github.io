@@ -5,6 +5,7 @@ import {
 
 import CodingItems from './items/CodingItems';
 import ResearchItems from './items/ResearchItems';
+import LeadershipItems from './items/LeadershipItems';
 
 class ProjectsBody extends Component {
 
@@ -15,6 +16,8 @@ class ProjectsBody extends Component {
         <ResearchItems />
         <Header as="h1" dividing>Coding Projects</Header>
         <CodingItems />
+        <Header as="h1" dividing>Leadership Projects</Header>
+        <LeadershipItems />
       </div>
     );
   }
