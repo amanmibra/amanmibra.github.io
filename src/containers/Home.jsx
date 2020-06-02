@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 
+import { Redirect } from 'react-router-dom';
 import HomeBody from './../components/home';
-import HomeMobile from '../components/home/HomeMobile';
 
 class Home extends Component {
 
   render() {
     return (
       <div>
-        <div className="desktop">
+        { window.innerWidth <= 760 ?
+          <Redirect to="/about" />
+          :
           <HomeBody />
-        </div>
-        <div className="mobile">
-          <HomeMobile />
-        </div>
+        }
       </div>
     );
   }
