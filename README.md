@@ -1,7 +1,7 @@
 # Aman Ibrahim - Software Engineer
 #### Aman Ibrahim's Portfolio site
 
-Find the site at [amanis.cool](www.amanis.cool)
+Find the site at [amanis.cool](https://amanis.cool)
 
 ![GIF of site](https://i.imgur.com/Fq2w0x5.gif)
 -------------
