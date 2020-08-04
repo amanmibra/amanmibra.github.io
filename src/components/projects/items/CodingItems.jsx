@@ -278,19 +278,6 @@ class CodingItems extends Component {
               <Item.Extra>Skills: Swift, Coinbase API</Item.Extra>
             </Item.Content>
           </Item>
-
-          <Item>
-            <Item.Content>
-              <a
-                target="_blank"
-                href="https://github.com/amanmibra?tab=repositories"
-              >
-                <Button color="blue">
-                  <Icon name='github' /> Want to see more? Check out my 40+ other Github Repos!
-                </Button>
-              </a>
-            </Item.Content>
-          </Item>
         </Item.Group>
       </div>
     );

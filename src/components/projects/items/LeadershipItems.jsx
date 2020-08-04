@@ -32,7 +32,7 @@ class LeadershipItems extends Component {
               <Item.Description>
                 As a project lead, I was working on building the web and mobile applications and the NLP services for seventh's platform for novel intellectual property for inventors/researchers/startup founders, investors, and legal practitioners to share, find, and manage new IP. All in time for their very important demo before investors at The Alchemist Accelerator which happened in September 2020.
               </Item.Description>
-              <Item.Extra>Skills: Management, Express, React, Docker, NLP</Item.Extra>
+              <Item.Extra>Skills: Team Management, Express, React, Docker, NLP</Item.Extra>
             </Item.Content>
           </Item>
         </Item.Group>

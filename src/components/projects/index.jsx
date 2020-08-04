@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import {
+  Button,
+  Divider,
   Header,
+  Icon,
 } from 'semantic-ui-react';
 
 import CodingItems from './items/CodingItems';
@@ -18,6 +21,10 @@ class ProjectsBody extends Component {
         <CodingItems />
         <Header as="h1" dividing>Leadership Projects</Header>
         <LeadershipItems />
+        <Divider />
+        <Button as="a" target="_blank" href="https://github.com/amanmibra?tab=repositories" color="blue">
+          <Icon name='github' /> Want to see more? Check out my 40+ other Github Repos!
+        </Button>
       </div>
     );
   }
