@@ -24,32 +24,6 @@ class CodingItems extends Component {
       <div>
         <Item.Group divided>
           <Item>
-            <Item.Image rounded src={actfor} size="tiny"/>
-
-            <Item.Content>
-              <Item.Header>
-                ActFor
-                <a style={{ marginLeft: '4px'}} href="https://actfor.us" target="_blank">
-                  <Icon name="linkify"/>
-                </a>
-                <a style={{ marginLeft: '4px'}} href="https://github.com/amanmibra/actfor" target="_blank">
-                  <Icon name="github"/>
-                </a>
-              </Item.Header>
-              <Item.Meta>
-                Website that builds on the work of activists and encourages action on social justice issues
-              </Item.Meta>
-              <Item.Description>
-                <Icon name="calendar outline"/> July 2020 - Ongoing
-              </Item.Description>
-              <Item.Description>
-                The purpose of this website is to highlight the voices of activists on issues we care about and to encourage the everyday citizen to take action. We noticed that many people speak passionately about a variety of issues on social media, and we wanted to help everyone take the next step by translating education into action. In regards to these issues, our website is an easy and accessible way to consolidate information, contact officials, donate, and keep track of upcoming elections.
-              </Item.Description>
-              <Item.Extra>Skills: React, Heroku</Item.Extra>
-            </Item.Content>
-          </Item>
-
-          <Item>
             <Item.Image rounded src={gthc} size="small"/>
 
             <Item.Content>
@@ -100,6 +74,32 @@ class CodingItems extends Component {
                 />
               </Item.Description>
               <Item.Extra>Skills: Ruby On Rails, React, Redux, SQL, Docker, Heroku, iOS, Android</Item.Extra>
+            </Item.Content>
+          </Item>
+
+          <Item>
+            <Item.Image rounded src={actfor} size="tiny"/>
+
+            <Item.Content>
+              <Item.Header>
+                ActFor
+                <a style={{ marginLeft: '4px'}} href="https://actfor.us" target="_blank">
+                  <Icon name="linkify"/>
+                </a>
+                <a style={{ marginLeft: '4px'}} href="https://github.com/amanmibra/actfor" target="_blank">
+                  <Icon name="github"/>
+                </a>
+              </Item.Header>
+              <Item.Meta>
+                Website that builds on the work of activists and encourages action on social justice issues
+              </Item.Meta>
+              <Item.Description>
+                <Icon name="calendar outline"/> July 2020 - Ongoing
+              </Item.Description>
+              <Item.Description>
+                The purpose of this website is to highlight the voices of activists on issues we care about and to encourage the everyday citizen to take action. We noticed that many people speak passionately about a variety of issues on social media, and we wanted to help everyone take the next step by translating education into action. In regards to these issues, our website is an easy and accessible way to consolidate information, contact officials, donate, and keep track of upcoming elections.
+              </Item.Description>
+              <Item.Extra>Skills: React, Heroku</Item.Extra>
             </Item.Content>
           </Item>
 
