@@ -73,7 +73,7 @@ class WorkCards extends Component {
           <Card.Content>
             <Card.Description>
               <p>
-                Built software tools for Duke faculty and students using technologies such as Reat, Rails, SQL, and Docker.
+                Built software tools for Duke faculty and students using technologies such as React, Rails, SQL, and Docker.
                 <a style={{ marginLeft: '4px'}} href="https://colab.duke.edu/" target="_blank">
                    <Icon name="linkify"/>
                 </a>
