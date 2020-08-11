@@ -29,7 +29,7 @@ class About extends Component {
 
                     <Item.Content verticalAlign="middle">
                       <Item.Header>Aman Ibrahim <Flag name='er'/></Item.Header>
-                      <Item.Meta>Machine Learning Platform @ <b>Cruise</b></Item.Meta>
+                      <Item.Meta>Machine Learning Infrastructure @ <b>Cruise</b></Item.Meta>
                       <Divider />
                       <Item.Description>
                         <div>

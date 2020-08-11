@@ -117,7 +117,7 @@ class CodingItems extends Component {
                 Find collaborators for your project idea or find a project to join.
               </Item.Meta>
               <Item.Description>
-                <Icon name="calendar outline"/> August 2018 - Ongoing
+                <Icon name="calendar outline"/> August 2018 - May 2020
               </Item.Description>
               <Item.Description>
                 Duke students often come to the Co-Lab with project ideas but no way of finding others who may be interested in joining. Discover is a way to find potential teammates by skill set (ie. design, marketing, backend development). Discover also functions as a platform for students to look at existing projects and connect with the project owner.
