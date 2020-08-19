@@ -77,7 +77,7 @@ class WorkCards extends Component {
                 Worked as General Project Manager with Seventh.ai through Duke Applied Machine Learning Group's Project Phoenix. I was the middle man between the company and the Duke student group in managing all of the Duke student interns at Seventh.ai.
               </p>
               <p>
-                Helped build ML and NLP infrastructre for Seventh's IP and company search alogorithms.
+                Helped build ML and NLP infrastructure for Seventh's IP and company search alogorithms.
               </p>
             </Card.Description>
           </Card.Content>
