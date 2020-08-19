@@ -13,6 +13,7 @@ import * as dukehealth from './../../../images/dukehealth.jpg';
 import * as dukeoit from './../../../images/dukeoit.png';
 import * as medsender from './../../../images/medsender.png';
 import * as salesforce from './../../../images/salesforce.png';
+import * as seventhai from './../../../images/seventhai.png';
 import * as twitter from './../../../images/twitter.png';
 import * as teaching from './../../../images/teaching.png';
 
@@ -52,6 +53,31 @@ class WorkCards extends Component {
                 Training Frameworks (both deep learning and non-deep-learning),
                 Hyperparameter Tuning, and
                 Job Orchestration.
+              </p>
+            </Card.Description>
+          </Card.Content>
+        </Card>
+
+        <Card color="blue">
+          <Image src={seventhai} />
+          <Card.Content>
+            <Card.Header>Seventh AI</Card.Header>
+            <Card.Meta>Project Phoenix Technical PM</Card.Meta>
+            <Card.Meta>
+              <Icon name="map marker alternate"/> Remote
+            </Card.Meta>
+            <Card.Meta>
+              <Icon name="calendar"/> May 2020 - August 2020
+            </Card.Meta>
+          </Card.Content>
+
+          <Card.Content>
+            <Card.Description>
+              <p>
+                Worked as General Project Manager with Seventh.ai through Duke Applied Machine Learning Group's Project Phoenix. I was the middle man between the company and the Duke student group in managing all of the Duke student interns at Seventh.ai.
+              </p>
+              <p>
+                Helped build ML and NLP infrastructre for Seventh's IP and company search alogorithms.
               </p>
             </Card.Description>
           </Card.Content>
