@@ -13,9 +13,75 @@ import NavBar from './../components/navbar';
 
 import * as aman from './../images/aman.jpeg';
 
+// other aman images
+import * as img1 from './../images/profile/1.jpg';
+import * as img2 from './../images/profile/2.jpg';
+import * as img3 from './../images/profile/3.jpg';
+import * as img4 from './../images/profile/4.jpg';
+import * as img5 from './../images/profile/5.jpg';
+import * as img6 from './../images/profile/6.jpg';
+import * as img7 from './../images/profile/7.jpg';
+import * as img8 from './../images/profile/8.jpg';
+import * as img9 from './../images/profile/9.jpg';
+import * as img10 from './../images/profile/10.jpg';
+import * as img11 from './../images/profile/11.jpg';
+import * as img12 from './../images/profile/12.jpg';
+import * as img13 from './../images/profile/13.jpg';
+import * as img14 from './../images/profile/14.jpg';
+import * as img15 from './../images/profile/15.jpg';
+
 class About extends Component {
+  constructor(props) {
+    super(props);
+    const all = [
+      aman,
+      img1,
+      img2,
+      img3,
+      img4,
+      img5,
+      img6,
+      img7,
+      img8,
+      img9,
+      img10,
+      img11,
+      img12,
+      img13,
+      img14,
+      img15,
+    ]
+
+    const good = [
+      aman,
+      img1,
+      img2,
+      img5,
+      img6,
+      img7,
+      img8,
+      img12,
+      img13,
+      img14,
+      img15,
+    ]
+    this.state = {
+      all: all,
+      good: good,
+      profile: good[Math.floor(Math.random()*good.length)],
+    }
+  }
+
+  onFlagClick = () => {
+    const { all } = this.state;
+    this.setState({
+      profile: all[Math.floor(Math.random()*all.length)],
+    })
+  }
 
   render() {
+    const { profile } = this.state;
+
     return (
       <div>
         <NavBar />
@@ -25,10 +91,10 @@ class About extends Component {
               <Segment>
                 <Item.Group divided>
                   <Item>
-                    <Item.Image rounded src={aman} size="medium"/>
+                    <Item.Image rounded src={profile} size="medium"/>
 
                     <Item.Content verticalAlign="middle">
-                      <Item.Header>Aman Ibrahim <Flag name='er'/></Item.Header>
+                      <Item.Header>Aman Ibrahim <Flag onClick={this.onFlagClick} name='er'/></Item.Header>
                       <Item.Meta>Machine Learning Infrastructure @ <b>Cruise</b></Item.Meta>
                       <Divider />
                       <Item.Description>
